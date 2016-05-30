@@ -1,6 +1,6 @@
 # Installation instructions
 
-NOTE: *For simplified install using provided docker containers see `README.md`, by using those instructions you
+NOTE: *For simplified install using provided docker containers see For simplified installation using Docker, see [doc/docker-compose/README.md](https://github.com/ezsystems/ezplatform/blob/master/doc/docker-compose/README.md)., by using those instructions you
 won't have to setup mysql, php, and nginx yourself, and almost all steps below are done for you.*
 
 ## Terms for future reference:
