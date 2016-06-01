@@ -21,3 +21,5 @@ services:
      # However not optimal as for instance PhpStorm Symfony extensions relies on parsing cache files for auto completion
      - KERNEL_CACHE_DIR=/dev/shm/app/cache
      - KERNEL_LOGS_DIR=/dev/shm/app/logs
+    # Default is 64M, but profiler takes quite some size, this might still be to small
+    shm_size: 320M
