@@ -80,6 +80,9 @@ mounts:
     'public/var':
         source: local
         source_path: var
+    'config/graphql/types':
+        source: local
+        source_path: graphql_types
 # Uncomment if you need to use Kaliop Migrations on your setup and not able to get it to write to "var" dir.
 #    'src/AppBundle/MigrationVersions/References':
 #        source: local
@@ -134,6 +137,7 @@ hooks:
         # Example of additional deploy hooks if you use doctrine and/or kaliop migration bundle
         ##bin/console doctrine:migrations:migrate --no-interaction --allow-no-migration
         ##bin/console kaliop:migration:migrate --no-interaction --no-debug
+
 
     # Post deploy hook, like deploy but after being deployed and live, for deploy tasks we can do asynchronously
     #post_deploy: |
